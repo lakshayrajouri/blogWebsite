@@ -1,11 +1,37 @@
 body{
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top{
+    padding: 0 100px 0 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+#top h1{
+    align-self: center;
+}
+.logo{
+    height: 100%;
+}
+
+hr{
+    margin: 0;
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+#main {
+    display: flex;
 }
 
 nav{
     background-color: aqua;
-    display: inline-block;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
     width: 15%;
     height: auto;
 }
@@ -15,4 +41,15 @@ ul{
 li{
     display: inline-block;
     font-size: 2rem;
+}
+
+#vl{
+    border-left: 1px solid black;
+    height: 500px;
+}
+
+#blogs{
+    height: 100px;
+    width: 85%;
+    background-color: red;   
 }
