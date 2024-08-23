@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: aqua;
+    display: inline-block;
+    width: 15%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    font-size: 2rem;
+}
